@@ -1,0 +1,5 @@
+# Acceder al NAO por ssh
+ssh nao@NAO_IP
+
+# Correr el servidor
+python ~/scripts/full_server.py --server_ip PC_IP
