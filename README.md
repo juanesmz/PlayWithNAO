@@ -32,7 +32,7 @@ scp path/to/full_server.py nao@nao_ip:/path/where/script/is/saved
 ```bash
 ssh nao@nao_ip
 ```
-### 3. Run script
+### 3. Run script (The script argument is the ip of your pc at the network shared with the NAO)
 ```bash
-python path/to/full_server.py
+python path/to/full_server.py --server_ip YOUR_PC_IP
 ```
